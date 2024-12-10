@@ -40,8 +40,8 @@ void main() {
 
 // ------------- Person class ( Model )--------------------------
 class Person {
-  String? name;
   int? age;
+  String? name;
   Person({this.name, this.age});
 
   factory Person.formJson(Map<dynamic, dynamic> json) {
