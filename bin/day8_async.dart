@@ -1,7 +1,14 @@
 int? number;
 void main() async{
-  await setNumber();
-  print(number);
+  // await setNumber();
+  // print(number);
+
+
+  print([].runtimeType);
+  print("[]".runtimeType);
+  
+  print({}.runtimeType);
+  print("{}".runtimeType);
 }
 
  setNumber()async {
